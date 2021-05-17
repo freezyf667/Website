@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagonal</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">DIAGONAL</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                   <a href="/" class="navbar__links"><i class="fas fa-home"></i>Home</a> 
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"><i class="fas fa-heart"></i>List</a> 
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"><i class="fas fa-shopping-cart"></i>Orders</a>  
+                </li>
+                <li class="navbar__btn">
+                    <a href="/" class="button"><i class="fas fa-user-alt"> </i> Sign in</a> 
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main-->
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Your favorite</h1>
+                <h1>neighborhood store...</h1>
+                <button class="main__btn"><a href="/">Explore Catalog</a></button>
+            </div>
+            <div class="main__img--container">
+                <img src="images/pic1.jpg" alt="pic" id="main__img">
+            </div>
+        </div>
+    </div>
+
+       <!--Slider-->
+        <div class="slider">
+
+            <div class="slider1" style="display: block;"> 
+                <div class="txt">
+                    <h1>UNIQUE</h1>
+                    <p>Discover the difference...</p>
+                </div>
+                <img src="/images/1.jpg" style="width: 100%;height: 100%;">
+            </div>
+            <div class="slider1">
+                <div class="txt">
+                    <h1>DIGITAL</h1>
+                    <p>Few clicks is all it takes...</p>
+                </div>
+                <img src="/images/2.jpg" style="width: 100%;height: 100%;">
+            </div>
+            <div class="slider1">
+                <div class="txt">
+                    <h1>PLEASANT</h1>
+                    <p>A higher form of shopping...</p>
+                </div>
+                <img src="/images/3.jpg" style="width: 100%;height: 100%;">
+            </div>
+            <div class="slider1">
+                <div class="txt">
+                    <h1>ENJOY</h1>
+                    <p>A new type of storefront...</p>
+                </div>
+                <img src="/images/4.jpg" style="width: 100%;height: 100%;">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+            <div class="dotsbox"style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+        </div>
+
+    <!--Services-->
+    <div class="services">
+        <h1>Discover </h1>
+        <div class="service__container">
+            <div class="services__card">
+                <h2>Our team</h2>
+                <p>Doing their best for you</p>
+            </div>
+            <div class="services__card">
+                <h2>Our projects</h2>
+                <p>Amazing projects accomplished until now
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Commentary-->
+    <section class = "commentary">
+        <div class = "commentary__container">>
+          <div class = "commentary__wrapper ">
+            <div class = "item">
+              <div class = "single__commentary">
+                <img src = "images/Johanne.jpg" alt = "commentary image">
+                <div>
+                  <h2 class = "text-large">Scemama Johanne</h2>
+                </div>
+              </div>
+              <p class = "text-normal">The neighborhood grocery that is always bustling, one of the few grocery stores that has character, like the places of old! And the prices are GREAT, too! </p>
+            </div>
+
+            <div class = "item">
+              <div class = "single__commentary">
+                <img src = "images/Anthony.jpg" alt = "commentary image">
+                <div>
+                  <h2 class = "text-large">Renaud--Parreira Anthony</h2>
+                </div>
+              </div>
+              <p class = "text-normal">I would recommend shopping at Diagonal to anyone! Great quality and great personalities!!!</p>
+            </div>      
+          </div>
+        </div>
+    <section>
+
+    <!--Footer-->
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About Us</h2>
+                        <a href="/">Careers</a>
+                        <a href="/">Terms of Use</a>
+                        <a href="/">Investments</a>
+                        <a href="/">Legal</a>
+                </div>
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                        <a href="/">Contact</a>
+                        <a href="/">Support</a>
+                        <a href="/">Refunds</a>
+                        <a href="/">Location</a>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo">DIAGONAL</a>
+                    </div>
+                    <p class="website__rights">© 2021 Diagonal All rights reserved.</p>
+                    <div class="social__icons">
+                        <a href="" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="social__icon--link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="web.js"></script>
+</body>
+</html>
